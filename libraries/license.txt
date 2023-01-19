@@ -1,0 +1,2 @@
+This Raspberry Pi Pico symbol/footprint is based on one posted by user @franzee in the kicad forums. The author placed it in Public Domain.
+https://forum.kicad.info/t/are-there-pi-pico-library-files-available-for-kicad-6/35844/12
