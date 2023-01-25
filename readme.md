@@ -18,4 +18,4 @@ Note: Flow control is not supported in this design. Only TX/RX are connected to 
 
 ## Board
 
-![2D board design](images/PicoRS232-brd.svg)
+![2D board design](images/PicoRS232-brd.png)
