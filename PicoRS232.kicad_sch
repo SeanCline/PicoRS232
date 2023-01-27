@@ -2544,14 +2544,17 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 88.9 40.64 0) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 098245f6-d289-4dd8-9a04-b85a1d0fb09a)
     (property "Reference" "SW1" (id 0) (at 88.9 33.02 0))
     (property "Value" "Reset" (id 1) (at 88.9 35.56 0))
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810" (id 2) (at 88.9 35.56 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem" (id 2) (at 88.9 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 88.9 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C318889" (id 4) (at 88.9 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bc1c678a-d1ee-4b79-b61d-8b6ca52e3f81))
@@ -4112,7 +4115,7 @@
       (reference "J10") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/098245f6-d289-4dd8-9a04-b85a1d0fb09a"
-      (reference "SW1") (unit 1) (value "Reset") (footprint "Button_Switch_SMD:SW_SPST_PTS810")
+      (reference "SW1") (unit 1) (value "Reset") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
     )
     (path "/d7189430-dc2f-47a9-b6d6-7ea28845876a"
       (reference "U1") (unit 1) (value "MAX3232CDR") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
